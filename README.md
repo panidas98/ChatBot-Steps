@@ -1,7 +1,5 @@
 # ChatBot-Steps
-**Pasos para crear un chatbot con python para Wapp**
 
-[Link Referencia](https://www.youtube.com/watch?v=puYWiZDJnL0&list=PL_PzSAnbaX7BOxBaqSOeyN-O8a2Pr_a_9&ab_channel=bigdateros])
-1. Crear cuenta en meta para developers
-2. Crear un nuevo proyecto en meta, poner nombre, portafolio y todas las configuraciones.
-3. Seleccionar Wapp como producto y configurar su API.
+Tenemos el despliegue de un chatbot usando telegram con el cual nos contectamos a un Excel que contiene la información de los productos y luego lo usa para responder preguntas del usuario sobre ellos, llevando incluso a genera un link de compra del mismo y enviarlo al usuario.
+
+Usamos Spacy para el procesamiento de lenguaje natural, pandas para el tratamiento del archivo y requests para procesar las solicitudes. Se usa telebot de Telegram para configurar el despliegue del chatbot.
